@@ -34,7 +34,7 @@ pipeline.
 
 ## Repository Structure
 
-```text
+```
 DSM5-Depression-Detection/
  ├─ README.md
  ├─ requirements.txt
@@ -48,6 +48,9 @@ DSM5-Depression-Detection/
  │   └─ 07_evaluation_metrics.ipynb
  └─ data/
      └─ README.md
+```
+
+---
 Data Availability
 Due to legal and ethical restrictions, the original Everytime dataset
 cannot be shared publicly.
@@ -66,6 +69,8 @@ without containing identifiable or proprietary information
 Further details regarding data restrictions are described in the
 data/README.md file.
 
+---
+
 Reproducibility
 All experiments were conducted using fixed random seeds to ensure
 reproducibility.
@@ -73,6 +78,8 @@ The notebooks are organized to reproduce the experimental results
 reported in the paper, including:
 
 Data formatting and labeling rules based on DSM-5 criteria
+
+---
 
 Model training procedures
 
@@ -91,6 +98,8 @@ HuggingFace Transformers
 KoBERT dependencies
 
 Additional Python packages listed in requirements.txt
+
+---
 
 How to Run
 Install dependencies:
@@ -114,6 +123,8 @@ Launch Jupyter Notebook and run the notebooks in order:
 
 Each notebook corresponds to a specific stage of the experimental
 pipeline described in the paper.
+
+---
 
 License
 This project is released under the MIT License.
